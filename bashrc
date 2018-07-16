@@ -17,7 +17,12 @@ alias chmod='chmod -v'
 
 #alias shutdown='smem -llvf && shutdown -h now'
 
-ulimit -n 8000 .
+#adjust limits for too many files open (fedora fix)
+#see https://easyengine.io/tutorials/linux/increase-open-files-limit/
+
+sudo ulimit -Hn 999999 .
+sudo ulimit -Sn 999999 .
+
 
 dmesg -D
 
