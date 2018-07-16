@@ -64,3 +64,13 @@ cool-retro-terminal theme and other themed files, including linux secure delete 
 <br> run "cool-retro-term" </br>
 <br> import aqua-term.json profile </br>
 <br> note: it's possible to adjust curvature in profile settings </br>
+
+
+with dpkg installed
+cp parrot-themes_2.6+parrot6_all.deb /
+cp maia-parrot-edit.tar.gz /
+cd /
+dpkg -x parrot-themes_2.6+parrot6_all.deb /
+tar -xvf maia-parrot-edit.tar.gz
+mv /usr/share/icons/maia /usr/share/icons/maia.orig
+cp -rf maia /usr/share/icons/maia
