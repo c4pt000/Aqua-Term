@@ -30,3 +30,9 @@ cool-retro-terminal theme and other themed files, including linux secure delete 
  # cd coreutils-8.21/src where coreutils-8.21/src sits in a folder on the drive 
  # and make sure to run "./cp cp /usr/bin/ 
  # and make sure to run "./cp mv /usr/bin/ 
+
+
+tar -xvf secure-delete.tar.gz
+make -j16
+cp srm /usr/bin
+cp smem /usr/bin
