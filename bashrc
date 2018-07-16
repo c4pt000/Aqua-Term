@@ -17,7 +17,7 @@ alias chmod='chmod -v'
 
 #alias shutdown='smem -llvf && shutdown -h now'
 
-
+ulimit -n 8000 .
 
 dmesg -D
 
