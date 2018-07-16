@@ -26,7 +26,7 @@ cool-retro-terminal theme and other themed files, including linux secure delete 
 
 
 
- # <br> if something is not right after running this immediately with cp or mv </br>
- # <br> cd coreutils-8.21/src where coreutils-8.21/src sits in a folder on the drive </br>
- # <br> and make sure to run "./cp cp /usr/bin/ </br>
- # <br> and make sure to run "./cp mv /usr/bin/ </br>
+ # if something is not right after running this immediately with cp or mv 
+ # cd coreutils-8.21/src where coreutils-8.21/src sits in a folder on the drive 
+ # and make sure to run "./cp cp /usr/bin/ 
+ # and make sure to run "./cp mv /usr/bin/ 
