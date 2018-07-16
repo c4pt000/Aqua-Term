@@ -58,3 +58,9 @@ cool-retro-terminal theme and other themed files, including linux secure delete 
 <br> source /root/.bashrc </br>
 <br> and or
 <br> source /home/USER/.bashrc </br>
+
+
+
+<br> run "cool-retro-term" </br>
+<br> import aqua-term.json profile </br>
+<br> note: it's possible to adjust curvature in profile settings </br>
