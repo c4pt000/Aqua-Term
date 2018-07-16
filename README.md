@@ -6,7 +6,9 @@ cool-retro-terminal theme and other themed files, including linux secure delete 
 # requires cool-retro-term and standard build utilities for C 
 <br> gcc gcc-c++ automake usual Development Tools or C/C++ building files </br>
 
-
+cd /opt
+git clone https://github.com/c4pt00/Aqua-Term
+cd /opt/Aqua-Term
 
 
 # build coreutils with patch for cp,mv,rm
@@ -77,3 +79,10 @@ cool-retro-terminal theme and other themed files, including linux secure delete 
 <br> tar -xvf maia-parrot-edit.tar.gz </br>
 <br> mv /usr/share/icons/maia /usr/share/icons/maia.orig </br>
 cp -rf maia /usr/share/icons/maia
+
+
+# for Smokey theme for Menu Bar
+cd /opt/Aqua-Term
+sudo cp -rf gnome-themes_2.14.3-1_all.deb /
+cd /
+sudo dpkg -x gnome-themes_2.14.3-1_all.deb /
