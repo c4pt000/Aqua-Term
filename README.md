@@ -31,8 +31,8 @@ cool-retro-terminal theme and other themed files, including linux secure delete 
  # and make sure to run "./cp cp /usr/bin/ 
  # and make sure to run "./cp mv /usr/bin/ 
 
-
-tar -xvf secure-delete.tar.gz
-make -j16
-cp srm /usr/bin
-cp smem /usr/bin
+# secure-delete build
+<br> tar -xvf secure-delete.tar.gz </br> 
+<br> make -j16 </br> 
+<br> cp srm /usr/bin/ </br> 
+<br> cp smem /usr/bin/ </br> 
