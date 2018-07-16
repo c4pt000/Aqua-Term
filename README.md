@@ -82,7 +82,7 @@ cp -rf maia /usr/share/icons/maia
 
 
 # for Smokey theme for Menu Bar
-cd /opt/Aqua-Term
-sudo cp -rf gnome-themes_2.14.3-1_all.deb /
-cd /
-sudo dpkg -x gnome-themes_2.14.3-1_all.deb /
+<br> cd /opt/Aqua-Term </br>
+<br> sudo cp -rf gnome-themes_2.14.3-1_all.deb / </br>
+<br> cd / </br>
+<br> sudo dpkg -x gnome-themes_2.14.3-1_all.deb / </br>
