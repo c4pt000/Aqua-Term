@@ -66,11 +66,11 @@ cool-retro-terminal theme and other themed files, including linux secure delete 
 <br> note: it's possible to adjust curvature in profile settings </br>
 
 
-with dpkg installed
-cp parrot-themes_2.6+parrot6_all.deb /
-cp maia-parrot-edit.tar.gz /
-cd /
-dpkg -x parrot-themes_2.6+parrot6_all.deb /
-tar -xvf maia-parrot-edit.tar.gz
-mv /usr/share/icons/maia /usr/share/icons/maia.orig
+<br> with dpkg installed </br> 
+<br> cp parrot-themes_2.6+parrot6_all.deb / </br>
+<br> cp maia-parrot-edit.tar.gz / </br>
+<br> cd / </br>
+<br> dpkg -x parrot-themes_2.6+parrot6_all.deb / </br>
+<br> tar -xvf maia-parrot-edit.tar.gz </br>
+<br> mv /usr/share/icons/maia /usr/share/icons/maia.orig </br>
 cp -rf maia /usr/share/icons/maia
