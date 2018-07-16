@@ -1,4 +1,4 @@
-# .bashrc
+# .bashrc + sec functions
 
 # User specific aliases and functions
 
