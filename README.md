@@ -1,3 +1,6 @@
+# *** NOT RESPONSIBLE FOR ANY FILE SYSTEM DAMAGE FROM USING THIS MOD + THEME, NOT RESPONSIBLE IF YOUR BOSS FIRES YOU FOR RUNNING # *** THIS WHILE YOU WORK, OR ANY PSYCHOLOGIST OR PSYCHIATRIST BILLS OR ANY OTHER HAZARDS YOU MIGHT INCUR 
+
+
 # Aqua-Term
 cool-retro-terminal theme and other themed files, including linux secure delete and coreutils patch
 # requires cool-retro-term and standard build utilities for C 
