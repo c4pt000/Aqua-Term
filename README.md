@@ -1,6 +1,7 @@
 # Aqua-Term
 cool-retro-terminal theme and other themed files, including linux secure delete and coreutils patch
-# requires cool-retro-term standard build utilities for C, gcc gcc-c++ automake usual Development Tools or C/C++ building files
+# requires cool-retro-term and standard build utilities for C 
+<br> gcc gcc-c++ automake usual Development Tools or C/C++ building files </br>
 
 
 <br> cd coreutils-8.21 </br>
