@@ -33,7 +33,12 @@ cool-retro-terminal theme and other themed files, including linux secure delete 
  
  
  
-<br> smem/srm build </br>
+<br></br>
+<br></br>
+<br></br>
+<br></br>
+
+
 
 
 # secure-delete build
@@ -44,7 +49,7 @@ cool-retro-terminal theme and other themed files, including linux secure delete 
 <br> cp smem /usr/bin/ </br> 
 
 
-
+# adjust .bashrc using bashrc to wrap terminal to parrotOS sec theme + cool-retro-term theme + secure functions
 # with cool-retro-term installed   (where USER is your username with 'whomai')
 <br> cp bashrc /root/.bashrc </br>
 <br> and or </br>
