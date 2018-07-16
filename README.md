@@ -42,3 +42,14 @@ cool-retro-terminal theme and other themed files, including linux secure delete 
 <br> make </br>  #concurrency -j breaks build process here
 <br> cp srm /usr/bin/ </br> 
 <br> cp smem /usr/bin/ </br> 
+
+
+
+# with cool-retro-term installed   (where USER is your username with 'whomai')
+<br> cp bashrc /root/.bashrc </br>
+<br> and or </br>
+<br> cp bashrc /home/USER/.bashrc </br>
+
+<br> source /root/.bashrc </br>
+<br> and or
+<br> source /home/USER/.bashrc </br>
