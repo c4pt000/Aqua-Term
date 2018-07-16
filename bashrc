@@ -7,8 +7,8 @@ alias cp='cp -gv'
 alias mv='mv -igv'
 
 #alias rm='srm -vz'
-alias rm='srm -vllfz'
-alias rms='srm -vllfzr'
+alias rm='srm -vllfzd'
+alias rms='srm -vllfzrd' #recursive rm -r    
 
 alias mkdir='mkdir -pv' # Preferred 'mkdir' implementation
 alias chown='chown -v'
@@ -17,11 +17,12 @@ alias chmod='chmod -v'
 
 #alias shutdown='smem -llvf && shutdown -h now'
 
+
+#optional
 #adjust limits for too many files open (fedora fix)
 #see https://easyengine.io/tutorials/linux/increase-open-files-limit/
-
-sudo ulimit -Hn 999999 .
-sudo ulimit -Sn 999999 .
+#sudo ulimit -Hn 999999 .
+#sudo ulimit -Sn 999999 .
 
 
 dmesg -D
