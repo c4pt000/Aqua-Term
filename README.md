@@ -4,6 +4,10 @@ cool-retro-terminal theme and other themed files, including linux secure delete 
 <br> gcc gcc-c++ automake usual Development Tools or C/C++ building files </br>
 
 
+
+
+# build coreutils with patch for cp,mv,rm
+
 <br> cd coreutils-8.21 </br>
 <br> ./configure </br>
 <br> make -j16                                 #where -j16 is 16 for processor cores for concurrency </br>
