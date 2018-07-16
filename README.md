@@ -16,15 +16,12 @@ cool-retro-terminal theme and other themed files, including linux secure delete 
 <br> sudo -i </br>
 <br> cp -rf cp /usr/bin/cp.mod </br>
 <br> cp -rf mv /usr/bin/mv.mod </br>
-<br> cp -rf rm /usr/bin/rm.mod </br>
 
 <br> mv /usr/bin/cp /usr/bin/cp.system.orig </br>
 <br> mv /usr/bin/mv /usr/bin/mv.system.orig </br>
-<br> mv /usr/bin/rm /usr/bin/rm.system.orig </br>
 
 <br> cp -rf cp /usr/bin/cp </br>
 <br> cp -rf mv /usr/bin/mv </br>
-<br> cp -rf rm /usr/bin/rm </br>
 
 
 
@@ -33,4 +30,3 @@ cool-retro-terminal theme and other themed files, including linux secure delete 
  <br> cd coreutils-8.21/src where coreutils-8.21/src sits in a folder on the drive </br>
  <br> and make sure to run "./cp cp /usr/bin/ </br>
  <br> and make sure to run "./cp mv /usr/bin/ </br>
- <br> and make sure to run "./cp rm /usr/bin/ </br>
