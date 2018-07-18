@@ -4,10 +4,16 @@
 <br> issues with delete after running .bashrc with "source /root/.bashrc"  </br>
 <br> seems as though when deleteing folders with a trailing / , the rm experiences an inconsistency,  </br>
 <br> e.g.  </br>
+
+# error like this  
+
 <br> cp dir dir.edit </br>
-<br> rm -r dir.edit/                                              # error like this  </br>
+<br> rm -r dir.edit/ </br>                                          
+
+# folder will delete on a 0 exit no error
+
 <br> cp dir dir.edit  </br>
-<br> rm -r dir.edit                                               # folder will delete on a 0 exit no error </br>
+<br> rm -r dir.edit   </br>                                            
 
 
 
