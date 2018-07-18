@@ -1,6 +1,18 @@
 # *** NOT RESPONSIBLE FOR ANY FILE SYSTEM DAMAGE FROM USING THIS MOD + THEME, NOT RESPONSIBLE IF YOUR BOSS FIRES YOU FOR RUNNING THIS WHILE YOU WORK, OR ANY PSYCHOLOGIST OR PSYCHIATRIST BILLS OR ANY OTHER HAZARDS YOU MIGHT INCUR 
 
 
+issues with delete after running .bashrc with "source /root/.bashrc"
+seems as though when deleteing folders with a trailing / , the rm experiences an inconsistency,
+e.g.
+cp dir dir.edit
+rm -r dir.edit/       << error like this
+
+cp dir dir.edit
+rm -r dir.edit       << folder will delete on a 0 exit no error
+
+
+
+
 # Aqua-Term
 cool-retro-terminal theme and other themed files, including linux secure delete and coreutils patch
 # requires cool-retro-term and standard build utilities for C 
