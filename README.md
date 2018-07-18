@@ -5,12 +5,12 @@
 <br> seems as though when deleteing folders with a trailing / , the rm experiences an inconsistency,  </br>
 <br> e.g.  </br>
 
-# error like this  
+# error like this with "rm"
 
 <br> cp dir dir.edit </br>
 <br> rm -r dir.edit/ </br>                                          
 
-# folder will delete on a 0 exit no error
+# folder will delete on a 0 exit no error with "rm"
 
 <br> cp dir dir.edit  </br>
 <br> rm -r dir.edit   </br>                                            
