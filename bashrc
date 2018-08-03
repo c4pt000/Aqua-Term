@@ -2,13 +2,17 @@
 
 # User specific aliases and functions
 
-alias rm='rm -igv'
-alias cp='cp -gvr'
-alias mv='mv -igv'
+alias rm='srm -rfllzv'
+#alias cp='cp -i'
+alias cp='cp -g'
+alias mv='mv -g'
 
-#alias rm='srm -vz'
-alias rm='srm -vllfzdr'
-alias rms='srm -vllfzrd'
+
+# Source global definitions
+if [ -f /etc/bashrc ]; then
+        . /etc/bashrc
+fi
+
 
 alias mkdir='mkdir -pv' # Preferred 'mkdir' implementation
 
