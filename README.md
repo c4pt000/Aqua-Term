@@ -10,8 +10,10 @@
 ![s1](https://i.imgur.com/MVirCFO.png)
 
 
-demo of terminal actively running
-with 
+demo of terminal theme actively running
+with https://github.com/c4pt000/Aqua-Term/blob/master/aqua_term.tweak.push2.json
+
+
 https://github.com/c4pt000/Aqua-Term/releases/download/term-demo/aqua-term-demo.mkv
    
   
