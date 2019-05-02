@@ -9,6 +9,10 @@
 
 ![s1](https://i.imgur.com/MVirCFO.png)
 
+
+demo of terminal actively running
+with 
+https://github.com/c4pt000/Aqua-Term/releases/download/term-demo/aqua-term-demo.mkv
    
   
 
