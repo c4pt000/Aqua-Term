@@ -2,8 +2,12 @@
 
 
    
-      <iframe width="560" height="315" src="https://hi21.one/aqua-term/aqua-term-demo.mkv" frameborder="0" allowfullscreen></iframe>
+      
    
+   
+https://hi21.one/aqua-term/aqua-term-demo.mkv
+  
+
 
 
 
