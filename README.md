@@ -1,4 +1,9 @@
 
+
+# * definite working with version 1.0.0 (cool-retro-term)
+
+
+
 Fedora 28 (only?)
 
 (not seen with CentOS7)
@@ -32,7 +37,6 @@ https://github.com/c4pt000/Aqua-Term/releases/download/term-demo/aqua-term-demo.
    
   
 
-definite working with version 1.0.0 (cool-retro-term)
 
 
 
