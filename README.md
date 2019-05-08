@@ -1,5 +1,15 @@
 
 
+# ** large copy file error outside of cp, using coreutils copy patch for cp,
+
+* coreutils patch for cp large files have malloc errors during copy causing "cool-retro-term" to overflow
+* see coreutils-8.21 patch
+
+echo 'export MALLOC_CHECK=3' >> /root/.bashrc
+or
+echo 'export MALLOC_CHECK=3' >> /home/"user"/.bashrc
+
+
 
    
       
