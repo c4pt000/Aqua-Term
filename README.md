@@ -25,13 +25,20 @@ echo 'export MALLOC_CHECK=3' >> /home/"user"/.bashrc
 
 
 
-   
+ <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
       
-   if you found this useful, anything helps
-
-1C4XqNoP9QMPQicKBW4R4Dfmpz67YN7qCW
-
-![s1](https://i.imgur.com/MVirCFO.png)
+   
 
 
 demo of terminal theme actively running
@@ -150,3 +157,14 @@ cp -rf maia /usr/share/icons/maia
 <br> sudo cp -rf gnome-themes_2.14.3-1_all.deb / </br>
 <br> cd / </br>
 <br> sudo dpkg -x gnome-themes_2.14.3-1_all.deb / </br>
+
+
+
+
+
+
+if you found this useful, anything helps
+
+1C4XqNoP9QMPQicKBW4R4Dfmpz67YN7qCW
+
+![s1](https://i.imgur.com/MVirCFO.png)
