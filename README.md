@@ -1,4 +1,7 @@
 
+Fedora 28 (only?)
+
+(not seen with CentOS7)
 
 # ** large copy file error outside of cp, using coreutils copy patch for cp,
 
@@ -8,6 +11,7 @@
 echo 'export MALLOC_CHECK=3' >> /root/.bashrc
 or
 echo 'export MALLOC_CHECK=3' >> /home/"user"/.bashrc
+
 
 
 
