@@ -165,13 +165,15 @@ cp -rf maia /usr/share/icons/maia
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
 
 
 if you found this useful, anything helps
 
-1C4XqNoP9QMPQicKBW4R4Dfmpz67YN7qCW
+1LzcsiiKveiDrPp6VGhQCg44dnQzqY2vNv
 
-![s1](https://i.imgur.com/MVirCFO.png)
+https://www.binance.com/userCenter/deposit.html      << for bitcoin mc/visa
+
+
+![s1](https://i.imgur.com/py97aYA.png)
+
+
