@@ -9,6 +9,12 @@ chmod a+x Cool-Retro-Term-1.1.1-x86_64.AppImage
 <br>
 ./Cool-Retro-Term-1.1.1-x86_64.AppImage
 <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 macOS
 <br>
