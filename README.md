@@ -1,6 +1,18 @@
 
 
-# * definite working with version 1.0.0 (cool-retro-term)
+# * definite working with version 1.0.0 (cool-retro-term) for 1.1.1 use aqterm_bright-111.json
+
+<br>
+wget https://github.com/Swordfish90/cool-retro-term/releases/download/1.1.1/Cool-Retro-Term-1.1.1-x86_64.AppImage
+<br>
+chmod a+x Cool-Retro-Term-1.1.1-x86_64.AppImage
+<br>
+./Cool-Retro-Term-1.1.1-x86_64.AppImage
+<br>
+
+macOS
+<br>
+brew cask install cool-retro-term
 
 <br>
 <br>
