@@ -20,5 +20,6 @@
   "screenCurvature": 0.2076,
   "staticNoise": 0.5601,
   "windowOpacity": 0.8396,
-  "name": "aqterm"
+  "name": "aqterm",
+   "version": 2
 }
