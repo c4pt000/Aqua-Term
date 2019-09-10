@@ -136,24 +136,39 @@ cd /opt/Aqua-Term
 
 
 # secure-delete build
-<br> tar -xvf secure-delete.tar.gz </br> 
-<br> cd secure-delete </br>
-<br> make </br>  #concurrency -j breaks build process here
-<br> cp srm /usr/bin/ </br> 
-<br> cp smem /usr/bin/ </br> 
+<br> tar -xvf secure-delete.tar.gz 
+<br> 
+<br> cd secure-delete 
+<br>
+<br> make 
+<br>  #concurrency -j breaks build process here
+<br> cp srm /usr/bin/ 
+<br> 
+<br> cp smem /usr/bin/ 
+<br> 
 
 
 # adjust .bashrc using bashrc to wrap terminal to parrotOS sec theme + cool-retro-term theme + secure functions
 # with cool-retro-term installed   (where USER is your username with 'whomai')
-<br> sudo cp bashrc /root/.bashrc </br>
-<br> and or </br>
-<br> cp bashrc /home/USER/.bashrc </br>
+<br> sudo cp bashrc /root/.bashrc 
+<br>
+<br> and or 
+<br>
+<br> cp bashrc /home/USER/.bashrc 
+<br>
 
-<br> source /root/.bashrc </br>
-<br> and or
-<br> source /home/USER/.bashrc </br>
+<br> source /root/.bashrc 
+<br>
+<br>
+and or
+<br> 
+source /home/USER/.bashrc 
+<br>
 
-
+<br>
+added stability? to delete files and folders with "secure-rm" -> srm
+alias rm='rm -drflvz'
+<br>
 
 <br> run "cool-retro-term" </br>
 <br> import aqua-term.json profile </br>
