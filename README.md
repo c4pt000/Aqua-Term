@@ -16,6 +16,30 @@ chmod a+x Cool-Retro-Term-1.1.1-x86_64.AppImage
 <br>
 <br>
 <br>
+
+# * adjust .bashrc using bashrc to wrap terminal to parrotOS sec theme + cool-retro-term theme + secure functions
+# * with cool-retro-term installed   (where USER is your username with 'whomai')
+<br> sudo cp bashrc /root/.bashrc 
+<br>
+<br> and or 
+<br>
+<br> cp bashrc /home/USER/.bashrc 
+<br>
+
+<br> source /root/.bashrc 
+<br>
+<br>
+and or
+<br> 
+source /home/USER/.bashrc 
+<br>
+
+<br>
+added stability? to delete files and folders with "secure-rm" -> srm
+<br>
+# * in ~/.bashrc
+# * alias rm='rm -drflvz'
+<br>
 <br>
 
 macOS
@@ -150,29 +174,7 @@ cd /opt/Aqua-Term
 <br> 
 
 
-# adjust .bashrc using bashrc to wrap terminal to parrotOS sec theme + cool-retro-term theme + secure functions
-# with cool-retro-term installed   (where USER is your username with 'whomai')
-<br> sudo cp bashrc /root/.bashrc 
-<br>
-<br> and or 
-<br>
-<br> cp bashrc /home/USER/.bashrc 
-<br>
 
-<br> source /root/.bashrc 
-<br>
-<br>
-and or
-<br> 
-source /home/USER/.bashrc 
-<br>
-
-<br>
-added stability? to delete files and folders with "secure-rm" -> srm
-<br>
-# * in ~/.bashrc
-# * alias rm='rm -drflvz'
-<br>
 
 <br> run "cool-retro-term" <br>
 <br> import aqua-term.json profile <br>
