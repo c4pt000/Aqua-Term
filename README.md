@@ -169,7 +169,9 @@ source /home/USER/.bashrc
 
 <br>
 added stability? to delete files and folders with "secure-rm" -> srm
-alias rm='rm -drflvz'
+<br>
+# * in ~/.bashrc
+# * alias rm='rm -drflvz'
 <br>
 
 <br> run "cool-retro-term" <br>
