@@ -1,5 +1,7 @@
 
 
+
+
 # * definite working with version 1.0.0 (cool-retro-term) for 1.1.1 use aqterm_bright-111.json
 
 <br>
@@ -73,19 +75,19 @@ https://github.com/c4pt000/Aqua-Term/releases/download/term-demo/aqua-term-demo.
 # *** NOT RESPONSIBLE FOR ANY FILE SYSTEM DAMAGE FROM USING THIS MOD + THEME, NOT RESPONSIBLE IF YOUR BOSS FIRES YOU FOR RUNNING THIS WHILE YOU WORK, OR ANY PSYCHOLOGIST OR PSYCHIATRIST BILLS OR ANY OTHER HAZARDS YOU MIGHT INCUR 
 
 
-<br> issues with delete after running .bashrc with "source /root/.bashrc"  </br>
-<br> seems as though when deleteing folders with a trailing / , the rm experiences an inconsistency,  </br>
-<br> e.g.  </br>
+<br> issues with delete after running .bashrc with "source /root/.bashrc"  <br>
+<br> seems as though when deleteing folders with a trailing / , the rm experiences an inconsistency,  <br>
+<br> e.g.  <br>
 
 # error like this with "rm"
 
-<br> cp dir dir.edit </br>
-<br> rm -r dir.edit/ </br>                                          
+<br> cp dir dir.edit <br>
+<br> rm -r dir.edit/ <br>                                          
 
 # folder will delete on a 0 exit no error with "rm"
 
-<br> cp dir dir.edit  </br>
-<br> rm -r dir.edit   </br>                                            
+<br> cp dir dir.edit  <br>
+<br> rm -r dir.edit   <br>                                            
 
 
 
@@ -93,7 +95,7 @@ https://github.com/c4pt000/Aqua-Term/releases/download/term-demo/aqua-term-demo.
 # Aqua-Term
 cool-retro-terminal theme and other themed files, including linux secure delete and coreutils patch
 # requires cool-retro-term and standard build utilities for C 
-<br> gcc gcc-c++ automake usual Development Tools or C/C++ building files </br>
+<br> gcc gcc-c++ automake usual Development Tools or C/C++ building files <br>
 
 cd /opt
 git clone https://github.com/c4pt00/Aqua-Term
@@ -102,20 +104,20 @@ cd /opt/Aqua-Term
 
 # build coreutils with patch for cp,mv,rm
 
-<br> cd coreutils-8.21 </br>
-<br> ./configure </br>
-<br> make -j16                                 #where -j16 is 16 for processor cores for concurrency </br>
-<br> cd src </br>
+<br> cd coreutils-8.21 <br>
+<br> ./configure <br>
+<br> make -j16                                 #where -j16 is 16 for processor cores for concurrency <br>
+<br> cd src <br>
 
-<br> sudo -i </br>
-<br> cp -rf cp /usr/bin/cp.mod </br>
-<br> cp -rf mv /usr/bin/mv.mod </br>
+<br> sudo -i <br>
+<br> cp -rf cp /usr/bin/cp.mod <br>
+<br> cp -rf mv /usr/bin/mv.mod <br>
 
-<br> mv /usr/bin/cp /usr/bin/cp.system.orig </br>
-<br> mv /usr/bin/mv /usr/bin/mv.system.orig </br>
+<br> mv /usr/bin/cp /usr/bin/cp.system.orig <br>
+<br> mv /usr/bin/mv /usr/bin/mv.system.orig <br>
 
-<br> cp -rf cp /usr/bin/cp </br>
-<br> cp -rf mv /usr/bin/mv </br>
+<br> cp -rf cp /usr/bin/cp <br>
+<br> cp -rf mv /usr/bin/mv <br>
 
 
 
@@ -127,10 +129,10 @@ cd /opt/Aqua-Term
  
  
  
-<br></br>
-<br></br>
-<br></br>
-<br></br>
+<br><br>
+<br><br>
+<br><br>
+<br><br>
 
 
 
@@ -170,26 +172,26 @@ added stability? to delete files and folders with "secure-rm" -> srm
 alias rm='rm -drflvz'
 <br>
 
-<br> run "cool-retro-term" </br>
-<br> import aqua-term.json profile </br>
-<br> note: it's possible to adjust curvature in profile settings </br>
+<br> run "cool-retro-term" <br>
+<br> import aqua-term.json profile <br>
+<br> note: it's possible to adjust curvature in profile settings <br>
 
 
-<br> with dpkg installed </br> 
-<br> cp parrot-themes_2.6+parrot6_all.deb / </br>
-<br> cp maia-parrot-edit.tar.gz / </br>
-<br> cd / </br>
-<br> dpkg -x parrot-themes_2.6+parrot6_all.deb / </br>
-<br> tar -xvf maia-parrot-edit.tar.gz </br>
-<br> mv /usr/share/icons/maia /usr/share/icons/maia.orig </br>
+<br> with dpkg installed <br> 
+<br> cp parrot-themes_2.6+parrot6_all.deb / <br>
+<br> cp maia-parrot-edit.tar.gz / <br>
+<br> cd / <br>
+<br> dpkg -x parrot-themes_2.6+parrot6_all.deb / <br>
+<br> tar -xvf maia-parrot-edit.tar.gz <br>
+<br> mv /usr/share/icons/maia /usr/share/icons/maia.orig <br>
 cp -rf maia /usr/share/icons/maia
 
 
 # for Smokey theme for Menu Bar
-<br> cd /opt/Aqua-Term </br>
-<br> sudo cp -rf gnome-themes_2.14.3-1_all.deb / </br>
-<br> cd / </br>
-<br> sudo dpkg -x gnome-themes_2.14.3-1_all.deb / </br>
+<br> cd /opt/Aqua-Term <br>
+<br> sudo cp -rf gnome-themes_2.14.3-1_all.deb / <br>
+<br> cd / <br>
+<br> sudo dpkg -x gnome-themes_2.14.3-1_all.deb / <br>
 
 
 
@@ -208,5 +210,6 @@ https://www.binance.com/userCenter/deposit.html      << for bitcoin mc/visa
 
 
 ![s1](https://i.imgur.com/py97aYA.png)
+
 
 
