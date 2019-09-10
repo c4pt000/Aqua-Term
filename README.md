@@ -33,14 +33,13 @@ and or
 <br> 
 source /home/USER/.bashrc 
 <br>
-
+* in ~/.bashrc
+* alias rm='rm -drflvz'
 <br>
 added stability? to delete files and folders with "secure-rm" -> srm
 <br>
-# * in ~/.bashrc
-# * alias rm='rm -drflvz'
-<br>
-<br>
+
+
 
 macOS
 <br>
