@@ -4,6 +4,10 @@
 
 # * definite working with version 1.0.0 (cool-retro-term) for 1.1.1 use aqterm_bright-111.json
 
+
+* update 09-11-19
+# * recompile "cp" with progress bar with "xattr" enabled for extended attributes or use standard copy to avoid errors via systems using 'dracut' and other functions outside of Makefile compiling, along with initramfs errors from missing extended attributes, -> "xattr"
+
 <br>
 wget https://github.com/Swordfish90/cool-retro-term/releases/download/1.1.1/Cool-Retro-Term-1.1.1-x86_64.AppImage
 <br>
