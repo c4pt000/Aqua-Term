@@ -1,5 +1,5 @@
 
-![](https://user-images.githubusercontent.com/46433702/64659158-45f4aa80-d408-11e9-8427-640ed5dffe87.gif)
+![s1](https://user-images.githubusercontent.com/46433702/64659158-45f4aa80-d408-11e9-8427-640ed5dffe87.gif)
 
 
 # * definite working with version 1.0.0 (cool-retro-term) for 1.1.1 use aqterm_bright-111.json
