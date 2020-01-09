@@ -208,15 +208,14 @@ cp -rf maia /usr/share/icons/maia
 <br>
 <br>
 
+donate via google pay
 
-if you found this useful, anything helps
+bc1q7ap44v0e8tz506fqvdygd7zztluvrl73pd527q
 
-1LzcsiiKveiDrPp6VGhQCg44dnQzqY2vNv
+or 
+
+if you found this useful,
 
 https://www.binance.com/userCenter/deposit.html      << for bitcoin mc/visa
-
-
-![s1](https://i.imgur.com/py97aYA.png)
-
 
 
