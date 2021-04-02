@@ -2,7 +2,7 @@
 ![s1](https://user-images.githubusercontent.com/46433702/64659158-45f4aa80-d408-11e9-8427-640ed5dffe87.gif)
 
 
-* system copy command "cp" should be renamed to cp.orig and copy command "cp" should be renamed to cp.mod from coreutils modified cp 
+* system copy command "cp" should be renamed to cp.orig and copy command from coreutils modified "cp" should be renamed to cp.mod 
 
 * for certain system functions copy command "cp" requires extended xattr bits
 * requires renaming /usr/bin/cp to /usr/bin/cp.orig and "modified" cp from coreutils from cp to cp.mod
