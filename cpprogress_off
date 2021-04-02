@@ -1,0 +1,2 @@
+echo '/usr/bin/cp.orig /usr/bin/cp.orig /usr/bin/cp'
+/usr/bin/cp.orig /usr/bin/cp.orig /usr/bin/cp
