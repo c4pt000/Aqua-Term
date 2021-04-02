@@ -1,6 +1,9 @@
 
 ![s1](https://user-images.githubusercontent.com/46433702/64659158-45f4aa80-d408-11e9-8427-640ed5dffe87.gif)
 
+* for certain system functions copy command "cp" requires extended xattr bits
+* the scripts cpprogress_on and cpprogress_off should be placed into /usr/bin/ as chmod +x to allow to turn off graphical cp -g progress bar modified copy command * from coreutils in order to run commands such as dracut -f or when rpm install scripts require xattr copy command bits.
+
 background animation is komorebi 
 # * definite working with version 1.0.0 (cool-retro-term) for 1.1.1 use aqterm_bright-111.json
 
