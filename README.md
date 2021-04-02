@@ -2,8 +2,9 @@
 ![s1](https://user-images.githubusercontent.com/46433702/64659158-45f4aa80-d408-11e9-8427-640ed5dffe87.gif)
 
 
-* system copy command "cp" should be renamed to cp.orig and copy command from coreutils modified "cp" should be renamed to cp.mod 
+* before running or using cpprogress_on or cpprogress_off to disable or enable cp with progress bar ,
 
+* system copy command "cp" should be renamed to cp.orig and copy command from coreutils modified "cp" should be renamed to cp.mod 
 * for certain system functions copy command "cp" requires extended xattr bits
 * requires renaming /usr/bin/cp to /usr/bin/cp.orig and "modified" cp from coreutils from cp to cp.mod
 * the scripts cpprogress_on and cpprogress_off should be placed into /usr/bin/ as chmod +x to allow to turn off graphical cp -g progress bar modified copy command * from coreutils in order to run commands such as dracut -f or when rpm install scripts require xattr copy command bits.
