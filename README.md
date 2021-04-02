@@ -7,8 +7,9 @@
 * system copy command "cp" should be renamed to cp.orig and copy command from coreutils modified "cp" should be renamed to cp.mod 
 * for certain system functions copy command "cp" requires extended xattr bits
 * requires renaming /usr/bin/cp to /usr/bin/cp.orig and "modified" cp from coreutils from cp to cp.mod
-* the scripts cpprogress_on and cpprogress_off should be placed into /usr/bin/ as chmod +x to allow to turn off graphical cp -g progress bar modified copy command * from coreutils in order to run commands such as dracut -f or when rpm install scripts require xattr copy command bits.
-
+* the scripts cpprogress_on and cpprogress_off should be placed into /usr/bin/ as chmod +x to allow enable or disable of  graphical cp -g progress bar modified copy command 
+* from coreutils in order to run commands such as dracut -f or when rpm install scripts require xattr copy command bits.
+ 
 background animation is komorebi 
 # * definite working with version 1.0.0 (cool-retro-term) for 1.1.1 use aqterm_bright-111.json
 
