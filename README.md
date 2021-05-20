@@ -1,3 +1,10 @@
+# disable tool-tips
+
+![s1](https://raw.githubusercontent.com/c4pt000/Aqua-Term/master/disable-tool-tips.png)
+![s1](https://raw.githubusercontent.com/c4pt000/Aqua-Term/master/disable-tool-tips-apply.png)
+
+
+
 
 # adjusting window title bar minimize, maximize, close for compiz users or macro users in general (mate desktop)
 ![s1](https://github.com/c4pt000/Aqua-Term/blob/master/adjusting-title-bar-size-1.png)
