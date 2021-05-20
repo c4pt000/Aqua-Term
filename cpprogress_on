@@ -2,5 +2,5 @@
 echo '/usr/bin/cp.orig /usr/bin/cp.mod /usr/bin/cp'
 cp /usr/bin/cp /usr/bin/cp.orig
 /usr/bin/cp.orig /usr/bin/cp.mod /usr/bin/cp
-echo 'you should copy the patched coreutils-8.21/src/cp  "cp" to /usr/bin/cpmod'
+echo 'if not already done, you should copy the patched coreutils-8.21/src/cp  "cp" to /usr/bin/cpmod'
 
