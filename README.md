@@ -27,7 +27,7 @@ gtk-window-decorator --replace &
 https://github.com/c4pt000/compiz-plugins-unsupported-centos/raw/master/compiz-plugins-unsupported-0.8.8-10.fc20.x86_64.rpm
 
 ```
-rpm -Uvh --force compiz-plugins-unsupported-0.8.8-10.fc20.x86_64.rpm
+rpm -Uvh --force --nodeps compiz-plugins-unsupported-0.8.8-10.fc20.x86_64.rpm
 ```
 ![s1](https://user-images.githubusercontent.com/46433702/64659158-45f4aa80-d408-11e9-8427-640ed5dffe87.gif)
 
