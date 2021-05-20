@@ -23,12 +23,7 @@ kill -9 (processid_of_gtk_window_decorator)
 gtk-window-decorator --replace &
 ```
 
-* compiz-unsupported-plugins fedora 34
-https://github.com/c4pt000/compiz-plugins-unsupported-centos/raw/master/compiz-plugins-unsupported-0.8.8-10.fc20.x86_64.rpm
 
-```
-rpm -Uvh --force --nodeps compiz-plugins-unsupported-0.8.8-10.fc20.x86_64.rpm
-```
 ![s1](https://user-images.githubusercontent.com/46433702/64659158-45f4aa80-d408-11e9-8427-640ed5dffe87.gif)
 
 
