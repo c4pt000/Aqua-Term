@@ -1,4 +1,24 @@
 
+# adjusting window title bar minimize, maximize, close for compiz users or macro users in general (mate desktop)
+![s1](https://github.com/c4pt000/Aqua-Term/blob/master/adjusting-title-bar-size-1.png)
+![s1](https://github.com/c4pt000/Aqua-Term/blob/master/adjusting-title-bar-size-2.png)
+
+requires dconf-editor (gtk-window-decorator --replace &)
+
+
+adjust dconf-editor of current logged in user to adjust title bar button size,
+requires killilng gtk-window-decorator and restarting gtk-window-decorator with --replace
+
+```
+dconf-editor
+ps ax | grep gtk-window-decorator
+kill -9 (processid_of_gtk_window_decorator)
+gtk-window-decorator --replace &
+```
+
+
+
+
 ![s1](https://user-images.githubusercontent.com/46433702/64659158-45f4aa80-d408-11e9-8427-640ed5dffe87.gif)
 
 
