@@ -1,3 +1,5 @@
+
 echo '/usr/bin/cp.orig /usr/bin/cp.mod /usr/bin/cp'
+cp /usr/bin/cp /usr/bin/cp.orig
 /usr/bin/cp.orig /usr/bin/cp.mod /usr/bin/cp
 

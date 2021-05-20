@@ -4,8 +4,9 @@
 
 alias rm='srm -rfllzv'
 #alias cp='cp -i'
-alias cp='cp -g'
-alias mv='mv -g'
+alias cp='cp -rf'
+alias cpmod='cpmod -g'
+alias mv='mv -v'
 
 
 # Source global definitions
