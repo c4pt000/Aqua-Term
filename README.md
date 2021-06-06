@@ -1,7 +1,7 @@
 cairo-dock brit theme mod
 as cairo-dock
 where "user" is your user root or otherwise
-![](https://raw.githubusercontent.com/c4pt000/Aqua-Term/master/Redhat-logo.png =50x50)
+<img src="https://raw.githubusercontent.com/c4pt000/Aqua-Term/master/Redhat-logo.png" data-canonical-src="https://raw.githubusercontent.com/c4pt000/Aqua-Term/master/Redhat-logo.png" width="50" height="50" />
 ![s1](https://raw.githubusercontent.com/c4pt000/Aqua-Term/master/cairo-dock-brit-mod.png)
 
 ```
