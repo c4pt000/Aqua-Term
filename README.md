@@ -1,3 +1,22 @@
+cairo-dock brit theme mod
+as cairo-dock
+where "user" is your user root or otherwise
+![red_hat_logo_shadowman_hat](https://raw.githubusercontent.com/c4pt000/Aqua-Term/master/Redhat-logo.png)
+![s1](https://raw.githubusercontent.com/c4pt000/Aqua-Term/master/cairo-dock-brit-mod.png)
+
+```
+
+chown -R user:user /home/user/.config/cairo-dock
+chmod -R 755 /home/user/.config/cairo-dock
+
+place in /home/user/.config/
+------------------------------------
+cd /home/user/.config
+wget https://github.com/c4pt000/Aqua-Term/raw/master/cairo-dock.tar.gz
+tar -xvf cairo-dock.tar.gz
+
+```
+
 # disable tool-tips
 
 ![s1](https://raw.githubusercontent.com/c4pt000/Aqua-Term/master/disable-tool-tips.png)
