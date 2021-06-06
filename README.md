@@ -1,7 +1,7 @@
 cairo-dock brit theme mod
 as cairo-dock
 where "user" is your user root or otherwise
-![red_hat_logo_shadowman_hat](https://raw.githubusercontent.com/c4pt000/Aqua-Term/master/Redhat-logo.png)[64x64]
+![red_hat_logo_shadowman_hat](https://raw.githubusercontent.com/c4pt000/Aqua-Term/master/Redhat-logo.png | width=25)
 ![s1](https://raw.githubusercontent.com/c4pt000/Aqua-Term/master/cairo-dock-brit-mod.png)
 
 ```
