@@ -2,7 +2,8 @@
 
 # User specific aliases and functions
 
-alias rm='srm -rfllzv'
+alias srm='srm -rfllzv'
+alias rm='rm -rfv'
 #alias cp='cp -i'
 alias cp='cp -rf'
 alias cpmod='cpmod -g'
