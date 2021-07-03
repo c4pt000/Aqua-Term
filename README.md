@@ -1,3 +1,11 @@
+
+* added MouseAntiLock.java a simple program that disables the screensaver from starting by randomly repositioning the mouse pointer in different locations randomly based on available sources (creates a tray icon of the Redhat logo)
+
+```
+javac MouseAntiLock.java
+java MouseAntiLock
+```
+
 cairo-dock brit theme mod
 as cairo-dock
 where "user" is your user root or otherwise
