@@ -1,5 +1,5 @@
 
-* added MouseAntiLock.java a simple program that disables the screensaver from starting by randomly repositioning the mouse pointer in different locations randomly based on available sources (creates a tray icon of the Redhat logo)
+* added MouseAntiLock.java (based on pre-existing sources, creates a tray icon of the Redhat logo) a simple program that disables the screensaver from starting by randomly repositioning the mouse pointer in different locations randomly 
 
 ```
 javac MouseAntiLock.java
