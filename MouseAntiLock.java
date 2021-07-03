@@ -67,7 +67,7 @@ final TrayIcon trayIcon;
     defaultItem.addActionListener(exitListener);
     popup.add(defaultItem);
 
-    trayIcon = new TrayIcon(image, "Tray Demo", popup);
+    trayIcon = new TrayIcon(image, "MouseAntiLock", popup);
 
     ActionListener actionListener = new ActionListener() {
         public void actionPerformed(ActionEvent e) {
@@ -84,7 +84,7 @@ final TrayIcon trayIcon;
     try {
         tray.add(trayIcon);
     } catch (AWTException e) {
-        System.err.println("TrayIcon could not be added.");
+        System.err.println("MouseAntiLock TrayIcon could not be added.");
     }
 
 
