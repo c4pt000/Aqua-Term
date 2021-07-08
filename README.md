@@ -1,4 +1,34 @@
 
+added two files for /usr/bin 
+requires both java8 and java11 installed for fast switching between versions
+
+```
+wget https://raw.githubusercontent.com/c4pt000/Aqua-Term/master/java11-switch-on
+wget https://raw.githubusercontent.com/c4pt000/Aqua-Term/master/java8-switch-on
+chmod +x /usr/bin/java11-switch-on
+chmod +x /usr/bin/java8-switch-on
+```
+
+```
+#java 11 switch
+rm -rf /etc/alternatives/javac
+rm -rf /etc/alternatives/java
+ln -s /usr/lib/jvm/java-11-openjdk-11.0.11.0.9-4.fc34.x86_64/bin/java /etc/alternatives/java
+ln -s /usr/lib/jvm/java-11-openjdk-11.0.11.0.9-4.fc34.x86_64/bin/javac /etc/alternatives/javac
+java -version
+javac -version
+```
+``` 
+#!/bin/bash
+#yum install java-1.8.0
+rm -rf /etc/alternatives/javac
+rm -rf /etc/alternatives/java
+ln -s /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.292.b10-4.fc34.x86_64/bin/java /etc/alternatives/java
+ln -s /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.292.b10-4.fc34.x86_64/bin/javac /etc/alternatives/javac
+java -version
+javac -version
+```
+
 * added MouseAntiLock.java (based on pre-existing sources, creates a tray icon of the Redhat logo) a simple program that disables the screensaver from starting by randomly repositioning the mouse pointer in different locations randomly 
 
 ```
