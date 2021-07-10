@@ -17,7 +17,7 @@ import java.awt.event.*;
 import javax.swing.JOptionPane;
 
 public class MouseAntiLock {
-    public static final int FIVE_SECONDS = 5000;
+    public static final int SIXTY_SECONDS = 60000;
     public static final int MAX_Y = 400;
     public static final int MAX_X = 400;
 
@@ -90,7 +90,7 @@ final TrayIcon trayIcon;
 
         while (true) {
             robot.mouseMove(random.nextInt(MAX_X), random.nextInt(MAX_Y));
-            Thread.sleep(FIVE_SECONDS);
+            Thread.sleep(SIXTY_SECONDS);
 }
 
         }
