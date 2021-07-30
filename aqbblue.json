@@ -13,7 +13,7 @@
   "rasterization": 1,
   "jitter": 0.3693,
   "rbgShift": 0.0561,
-  "brightness": 0.95,
+  "brightness": 1,
   "contrast": 0.9455,
   "ambientLight": 0.04,
   "windowOpacity": 0.7055,
