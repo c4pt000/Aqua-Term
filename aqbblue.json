@@ -4,7 +4,7 @@
   "flickering": 0.385,
   "horizontalSync": 0.4586,
   "staticNoise": 0.5601,
-  "chromaColor": 1,
+  "chromaColor": 0,
   "saturationColor": 0.242,
   "screenCurvature": 0,
   "glowingLine": 0.1338,
