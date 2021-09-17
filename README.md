@@ -2,6 +2,7 @@ notes for myself a gist I forked for android emulator
 https://gist.github.com/c4pt000/b0a362b83823e3a89ad8aaddcbdcbfe7
 
 ```
+where /opt/android/android-sdk is path to CLI android-sdk
  export ANDROID_SDK_ROOT=/opt/android/android-sdk
  export ANDROID_HOME=/opt/android/android-sdk
 
