@@ -21,6 +21,10 @@ sdkmanager --install "system-images;android-29;google_apis_playstore;x86_64"
 #support for arm with the x86 emulator with version 29+ and higher?
 avdmanager --verbose create avd --force --name Nexus-29-x86_64  --package "system-images;android-29;google_apis_playstore;x86_64" 
 ```
+ARM64
+```
+avdmanager --verbose create avd --force --name Nexus-29-arm64  --package "system-images;android-29;google_apis_playstore;arm64-v8a"
+```
 >> /root/.bashrc
 ```
 alias EMULATOR='emulator @Nexus-29-x86_64 -no-boot-anim -netdelay none -no-snapshot -wipe-data -skin 768x1280 &'
@@ -31,6 +35,14 @@ or alternatively
 # gpu pipeline acceleration
 # /opt/android/android-sdk/emulator/emulator @Nexus-29-x86_64 -gpu on &
 /opt/android/android-sdk/emulator/emulator @Nexus-29-x86_64 &
+
+```
+
+/usr/bin/EMULATOR-arm64
+```
+# gpu pipeline acceleration
+# /opt/android/android-sdk/emulator/emulator @Nexus-29-arm64 -gpu on &
+/opt/android/android-sdk/emulator/emulator @Nexus-29-arm64 &
 
 ```
 
