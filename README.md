@@ -14,6 +14,20 @@ where /opt/android/android-sdk is path to CLI android-sdk
 sdkmanager --sdk_root=${ANDROID_HOME} --install "platforms;android-29"
 sdkmanager --sdk_root=${ANDROID_HOME} --install "system-images;android-29;google_apis_playstore;x86_64"
 ```
+
+# PATH
+```
+export PATH=$PATH:/usr/bin/gradle-6.5/bin:/opt/android/android-sdk/tools/bin:/opt/android/android-sdk/platform-tools
+
+export ANDROID_SDK_ROOT=/opt/android/android-sdk
+```
+
+```
+avdmanager --verbose create avd --force --name generic-29-x86  --package "system-images;android-29;default;x86"
+```
+
+
+
 x86_64 emulator 29+ for experimentation with arm apk support via adb install *apk
 ```
 #/root/.bashrc alias
