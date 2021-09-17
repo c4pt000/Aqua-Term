@@ -7,6 +7,15 @@ https://gist.github.com/c4pt000/b0a362b83823e3a89ad8aaddcbdcbfe7
 
 sdkmanager --sdk_root=${ANDROID_HOME} --install "system-images;android-28;google_apis_playstore;x86_64"
 ```
+arm64
+```
+#/root/.bashrc alias
+alias generic_9.0='emulator @generic_9.0 -no-boot-anim -netdelay none -no-snapshot -wipe-data -skin 768x1280 &'
+
+sdkmanager --install "system-images;android-29;google_apis_playstore;arm64-v8a"
+
+avdmanager --verbose create avd --force --name Nexus-arm64 --abi google_apis_playstore/arm64-v8a --package "system-images;android-29;google_apis_playstore;arm64-v8a" 
+```
 
 added java8 and java11 fast switching scripts for ubuntu/debian based systems
 
