@@ -8,8 +8,8 @@ where /opt/android/android-sdk is path to CLI android-sdk
  export ANDROID_SDK_ROOT=/opt/android/android-sdk
  export ANDROID_HOME=/opt/android/android-sdk
 
-sdkmanager --sdk_root=${ANDROID_HOME} --install "platforms;android-28"
-sdkmanager --sdk_root=${ANDROID_HOME} --install "system-images;android-28;google_apis_playstore;x86_64"
+sdkmanager --sdk_root=${ANDROID_HOME} --install "platforms;android-29"
+sdkmanager --sdk_root=${ANDROID_HOME} --install "system-images;android-29;google_apis_playstore;x86_64"
 ```
 arm64
 ```
