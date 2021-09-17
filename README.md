@@ -14,11 +14,24 @@ sdkmanager --sdk_root=${ANDROID_HOME} --install "system-images;android-28;google
 arm64
 ```
 #/root/.bashrc alias
-alias generic_9.0='emulator @generic_9.0 -no-boot-anim -netdelay none -no-snapshot -wipe-data -skin 768x1280 &'
+alias EMULATOR='emulator @Nexus-29-x86_64 -no-boot-anim -netdelay none -no-snapshot -wipe-data -skin 768x1280 &'
 
-sdkmanager --install "system-images;android-29;google_apis_playstore;arm64-v8a"
+sdkmanager --install "system-images;android-29;google_apis_playstore;x86_64"
 
-avdmanager --verbose create avd --force --name Nexus-arm64 --abi google_apis_playstore/arm64-v8a --package "system-images;android-29;google_apis_playstore;arm64-v8a" 
+#support for arm with the x86 emulator with version 29+ and higher?
+avdmanager --verbose create avd --force --name Nexus-29-x86_64  --package "system-images;android-29;google_apis_playstore;x86_64" 
+```
+>> /root/.bashrc
+```
+alias EMULATOR='emulator @Nexus-29-x86_64 -no-boot-anim -netdelay none -no-snapshot -wipe-data -skin 768x1280 &'
+```
+or alternatively
+/usr/bin/EMULATOR
+```
+# gpu pipeline acceleration
+# /opt/android/android-sdk/emulator/emulator @Nexus-29-x86_64 -gpu on &
+/opt/android/android-sdk/emulator/emulator @Nexus-29-x86_64 &
+
 ```
 
 added java8 and java11 fast switching scripts for ubuntu/debian based systems
