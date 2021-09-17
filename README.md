@@ -1,3 +1,7 @@
+notes for myself a gist I forked for android emulator 
+https://gist.github.com/c4pt000/b0a362b83823e3a89ad8aaddcbdcbfe7
+
+added java8 and java11 fast switching scripts for ubuntu/debian based systems
 
 added two files for /usr/bin 
 requires both java8 and java11 installed for fast switching between versions
