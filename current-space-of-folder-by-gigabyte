@@ -1,0 +1,11 @@
+#!/bin/sh
+du -h . | grep .0G
+du -h . | grep .1G
+du -h . | grep .2G
+du -h . | grep .3G
+du -h . | grep .4G
+du -h . | grep .5G
+du -h . | grep .6G
+du -h . | grep .7G
+du -h . | grep .8G
+du -h . | grep .9G
