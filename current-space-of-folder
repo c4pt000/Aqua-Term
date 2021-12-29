@@ -1,5 +1,5 @@
 #!/bin/sh
-# supports traversing recursively to discover directory sizes *AND* file sizes by gigabytes to discovery large file usage
+# supports traversing recursively to discover directory sizes *AND* file sizes by gigabytes to discover large files in use
 # should be placed in /usr/bin as chmod +x
 du -h . | grep .0G
 du -h . | grep .1G
