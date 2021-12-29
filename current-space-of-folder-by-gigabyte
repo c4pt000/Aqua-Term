@@ -1,4 +1,5 @@
 #!/bin/sh
+# supports traversing recursively to discover directory sizes and file sizes by gigabytes
 du -h . | grep .0G
 du -h . | grep .1G
 du -h . | grep .2G
