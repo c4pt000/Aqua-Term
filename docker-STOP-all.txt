@@ -4,6 +4,8 @@ docker ps -a
 sed 1,1d docker-stop-all.txt > docker-stop-all-cln.txt
 sed -i 's/^/docker stop /g' docker-stop-all-cln.txt 
 chmod +x docker-stop-all-cln.txt
+./docker-stop-all-cln.txt
+
 rm -rf docker-current.txt
 rm -rf docker-stop-all.txt
 rm -rf docker-stop-all-cln.txt
