@@ -1,0 +1,11 @@
+
+yum install cmake make pkgconfig gcc gcc-c++ gettext glib2-devel cairo-devel librsvg2-devel dbus-glib-devel libxml2-devel libXrender-devel mesa-libGL-devel mesa-libGLU-devel pango-devel libXxf86vm-devel libXtst-devel libXrandr-devel libX11-devel libcurl-devel gtk3-devel lm_sensors-devel libxklavier-devel libexif-devel libetpan-devel gnome-menus-devel alsa-lib-devel libical-devel upower-devel libzeitgeist-devel vte-devel
+
+
+mkdir build
+cd build
+cmake .. -DCMAKE_INSTALL_PREFIX=/usr
+make -j24 clean
+make -j24
+make -j24 install
+cairo-dock &
